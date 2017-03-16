@@ -1,0 +1,27 @@
+// standard styling for main parent element and its child elements
+.km-privacy {
+	display: block; // required for IE 11 to properly use padding-bottom
+	@extend .stag-sans-book-web; // standard medium-weight font
+	font-size: 16px; // minimum font-size
+	line-height: 1;
+
+	* { box-sizing: border-box; }
+
+	a {
+		color: $kDarkBlue;
+		@extend .stag-sans-semibold-web;
+		
+		&:focus, &:hover { color: $kDarkBlueHover; }
+
+		&[href*="nitty-gritty"] { text-decoration: none; } // remove link underline from Nitty Gritty superscript numbers
+	}
+
+	img {
+		max-width: 100%;
+		display: block;
+	}
+
+	p { margin: 0; }
+
+	.inner-container { padding: 0 20px; }
+}

@@ -1,0 +1,258 @@
+//- filepath: /sites/default/files/uploads/privacy/filename.filetype
+
+//- HTML character codes:
+	//- ampersand           : &#38;
+	//- for Kooding glyphs, refer to _standardize.scss file
+
+doctype html
+html(lang="fr")
+	head
+		title km.com/privacy
+		// START of local webserver CSS resources
+		link(rel="icon", type="image/png", href="http://localhost:4000/public/icons/koodo-blueberry-favicon-196-196.png")
+		link(rel="stylesheet" href="http://localhost:4000/public/font-stag-sans-web/stag-sans-web.css")
+		link(rel="stylesheet" href="http://localhost:4000/public/font-kooding-glyphs/kooding-glyphs.css")
+		link(rel="stylesheet" href="http://localhost:4000/public/styles/page-title-helper.css")
+		link(rel="stylesheet" href="http://localhost:4000/public/styles/window-dimensions-helper.css")
+		// END of local webserver CSS resources
+		link(rel="stylesheet" href="styles/main.css")
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		style.
+			/* project-specific styles go here */
+			body { margin: 0; }
+
+			#site-container { max-width: 1160px; margin: 0 auto; }
+	body
+		div#site-wrapper.page-content <!-- markup to mirror production page structure -->
+			div#ptHelper <!-- markup to mirror production page structure -->
+				h2 Notre engagement envers vous en matière de protection de la vie privée
+			div#site-container <!-- markup to mirror production page structure -->
+				div#site-content <!-- markup to mirror production page structure -->
+					div.content <!-- markup to mirror production page structure -->
+						main.km-privacy.lang-fr(role="main")
+							section.banner
+								div.inner-container
+									p La nouvelle version de notre Engagement en matière de protection de la vie privée entrera en vigueur le 1 Mai 2017.
+									p Une copie de la version actuelle de notre Engagement en matière de protection de la vie privée est #[a(href="/sites/default/files/uploads/privacy/koodo-privacy-policy-fr-2015.06.01.pdf", target="_blank", rel="noopener noreferrer") disponible ici].
+
+							section.updates-whats-new
+								ul.accordion-items
+									li.accordion-item
+										button.ai-summary
+											div.ai-container
+												h4 Changements apportés à l'engagement en matière de protection de la vie privée
+												span.kooding-glyph.circular-arrow-down
+										div.ai-details
+											p Dans le cadre de notre engagement continu à protéger la vie privée des clients, nous avons apporté des changements à l'engagement en matière de protection de la vie privée.
+											p Voici les faits saillants :
+											ol
+												li Les cinq motifs pour lesquels nous procédons à la collecte et à l'utilisation de vos renseignements personnels demeurent les mêmes. Ils représentent la base de notre engagement envers vous en matière de protection de la vie privée.
+												li Nous avons actualisé le format de présentation de notre engagement pour vous permettre de sélectionner d'un simple clic la quantité de renseignements sur nos pratiques de confidentialité que vous aimeriez consulter, à tout moment.
+												li Nous avons ajouté des exemples portant sur les renseignements que nous recueillons et les fins auxquelles nous les utilisons afin de rendre notre engagement plus pertinent à vos yeux.
+												li Nous avons remplacé la section « Comment Koodo assure-t-elle la protection de votre vie privée? » par la section plus détaillée « Quelques moyens que nous employons pour protéger votre vie privée ». Cette nouvelle section traite de notre engagement envers la protection intégrée de la vie privée et des mesures visant la protection de la vie privée, y compris l'anonymisation des renseignements personnels. Elle porte aussi sur le Bureau du chef des données et des relations de confiance, qui a pour objectif de protéger votre vie privée et de gagner et garder la confiance des clients concernant nos pratiques de traitement des données.
+												li Nous avons également modifié la FAQ pour tenir compte des questions et des commentaires des clients et pour vous donner des précisions sur certaines pratiques de traitement des données.
+
+							section.inner-container
+								p À Koodo nous respectons la vie privée de nos clients et mettons tout en œuvre pour protéger leurs renseignements personnels. Conformément à notre engagement indéfectible à accorder la priorité aux clients, nous appliquons depuis longtemps une politique visant à protéger les renseignements personnels dans toutes les activités de notre entreprise.#[sup #[a(href="#nitty-gritty-1") 1]] Nous croyons que pour protéger la vie privée des clients, il est important que nous fassions preuve de clarté quant à la façon dont nous traitons leurs renseignements personnels et que nous rendions facilement accessibles les détails de notre approche. Parallèlement à notre  Code  sur la protection de la vie privée, qui fixe les grands principes régissant la collecte, l'utilisation et la communication des renseignements personnels sur nos clients,#[sup #[a(href="#nitty-gritty-2") 2]] le présent Engagement en matière de protection de la vie privée vise à vous fournir plus de détails sur nos pratiques en cette matière.#[sup #[a(href="#nitty-gritty-3") 3]]
+								
+								p Koodo fait partie de la famille TELUS. Elle est donc assujettie à l'Engagement en matière de protection de la vie privée et le Code de TELUS sur la protection de la vie privée.  Pour en savoir plus sur les pratiques de TELUS en matière de protection de la vie privée, veuillez visiter #[a(href="https://telus.com/privee", target="_blank", rel="noopener noreferrer") telus.com/privee]. Les #[a(href="https://sustainability.telus.com/fr/lexploitation-durable-et-lethique-des-affaires/la-transparence", target="_blank", rel="noopener noreferrer") données sur la transparence] qui se trouvent dans le #[a(href="http://sustainability.telus.com/fr", target="_blank", rel="noopener noreferrer") Rapport sur la durabilité] s'appliquent aussi à Koodo. Vous pouvez consulter ce rapport.
+								
+								p Nos clients nous ont dit qu'il leur suffit parfois d'avoir une vue d'ensemble d'une politique ou d'un processus. Dans certains cas, toutefois, ils veulent plus de détails ou d'exemples de la manière dont nos politiques ou processus fonctionnent. C'est pourquoi cet Engagement en matière de protection de la vie privée est structuré par couches. Tout comme notre Code sur la protection de la vie privée, notre Engagement en matière de protection de la vie privée est conforme aux dispositions de la législation canadienne relative à la protection de la vie privée, comme la #[em Loi sur la protection des renseignements personnels et les documents électroniques], à la réglementation applicable du CRTC en matière de protection de la vie privée et à notre souci constant de préserver la vie privée de nos clients. Autrement dit, nous tenons à vous informer des fins auxquelles nous procédons à la collecte, à l'utilisation et à la divulgation de renseignements personnels sur nos clients. Vous trouverez ci-après un résumé de nos pratiques en matière de protection de la vie privée.
+
+							section
+								div.inner-container
+									h3 Pourquoi nous recueillons des renseignements personnels
+									p Si vous êtes un client de Kodoo hez que nous Kodoo recueille à votre sujet certains renseignements. Nous respectons votre vie privée et ne recueillons des renseignements personnels à votre sujet qu'aux fins suivantes :
+
+								ul.accordion-items
+									li.accordion-item
+										button.ai-summary
+											div.ai-container
+												h4 Établir et maintenir une relation commerciale digne de confiance avec vous et vous fournir un service ininterrompu.
+												span.kooding-glyph.circular-arrow-down
+										div.ai-details
+											p Voici quelques exemples de ce que nous entendons par là :
+											p Lorsque vous demandez des services, nous créons généralement un compte et recueillons des renseignements comme votre nom, votre adresse, votre date de naissance, votre langue de préférence, votre numéro de compte Koodo, les autres utilisateurs autorisés, le NIP de sécurité unique de votre compte et votre adresse de courriel.
+											ul
+												li Pour confirmer votre identité ou effectuer une vérification de crédit. Nous pouvons également vous demander une pièce d'identité ou des renseignements d'identification valides.
+												li Nous utilisons aussi certains de vos renseignements personnels pour confirmer votre identité lorsque vous communiquez avec nous afin d'éviter qu'une autre personne tente d'accéder à votre compte sans autorisation.
+												li Aux fins de la facturation, nous recueillons des renseignements sur les services que vous utilisez, comme les numéros de téléphone, l'heure, la date et la durée des appels mobiles entrants et sortants. Nous recueillons également des renseignements pour configurer les paiements préautorisés si vous le souhaitez.
+												li Pour vous aider à comprendre votre facture, nous recueillons également des renseignements sur la manière dont les services ou les applications utilisés sur les appareils inscrits à votre compte contribuent à votre utilisation de données.
+
+									li.accordion-item
+										button.ai-summary
+											div.ai-container
+												h4 Connaître vos besoins et vos préférences.
+												span.kooding-glyph.circular-arrow-down
+										div.ai-details
+											p Voici quelques exemples de ce que nous entendons par là :
+											ul
+												li Nous tenons un registre des produits et des services que nous vous fournissons, et il se peut que nous recueillions des renseignements additionnels sur vos niveaux et habitudes d'utilisation de ces produits et services.
+												li Parmi les données que nous recueillons ou utilisons à cette fin, mentionnons les renseignements sur votre appareil mobile, comme le numéro de téléphone, le numéro de la carte SIM, le système d'exploitation, le type de réseau, le fabricant, le modèle, la marque et le numéro IMEI. 
+												li Il se peut que nous vous demandions des renseignements additionnels afin de mieux répondre à vos besoins et préférences, y compris des détails sur les produits et services de Koodo que vous utilisez (forfait de services mobiles etc.). 
+												li Nous pouvons recueillir de l'information sur vous et vos préférences envers certains produits, services ou activités ou faire des déductions sur votre mode de vie à partir des préférences que vous exprimez ou de vos habitudes d'utilisation.
+
+									li.accordion-item
+										button.ai-summary
+											div.ai-container
+												h4 Développer, améliorer, commercialiser ou fournir des produits et services.
+												span.kooding-glyph.circular-arrow-down
+										div.ai-details
+											p Voici quelques exemples de ce que nous entendons par là :
+											ul
+												li Il se peut donc que nous analysions de temps à autre la manière dont vous utilisez nos produits et services pour être en mesure de vous adresser des recommandations et des offres susceptibles de vous intéresser.
+												li Nous pouvons analyser vos habitudes d'appels mobiles pour vous recommander un nouveau forfait mensuel qui vous permettra d'économiser. 
+												li Nous pouvons analyser votre utilisation de nos produits et services pour mieux comprendre vos préférences et pour développer nos produits et services et les améliorer. Cela peut inclure l'analyse des données de positionnement pour fournir des produits et services pertinents, nouveaux ou améliorés. Par exemple, si vous utilisez les services en itinérance sur d'autres réseaux que celui de TELUS avec votre appareil mobile, nous pouvons vous offrir un ensemble de services d'itinérance. 
+												li Nous pouvons vous recommander un nouveau service ou une de nos applications qui pourrait vous plaire, compte tenu de vos services actuels ou des applications que vous utilisez.
+											p À noter que nos clients qui ne souhaitent pas recevoir ce genre de recommandations ou d'offres peuvent demander en tout temps se retirer de nos listes de marketing.
+
+									li.accordion-item
+										button.ai-summary
+											div.ai-container
+												h4 Gérer et développer notre entreprise et nos activités.
+												span.kooding-glyph.circular-arrow-down
+										div.ai-details
+											p Voici quelques exemples de ce que nous entendons par là :
+											ul
+												li Nous pouvons recueillir des renseignements personnels pour gérer nos activités quotidiennes avec plus d'efficacité et pour mieux gérer notre infrastructure, notamment dans le but de la sécuriser et de planifier sa croissance future.
+												ul
+													li Nous déterminons le nombre de clients qui utilisent une infrastructure de services mobiles donnée, et les heures où ils le font, afin de mieux planifier nos nouvelles infrastructures. Nous examinons aussi les détails des messages texte et multimédias, soit la date et l'heure des messages envoyés et reçus (mais pas leur contenu), ainsi que les numéros de téléphone et tours cellulaires correspondants. 
+													li Nous analysons également les détails sur les appels effectués sur notre réseau cellulaire, y compris les données de positionnement (p. ex., emplacement des tours cellulaires qui ont acheminé les communications). Ces renseignements nous aident également à planifier les investissements futurs dans nos infrastructures.
+												li Nous examinons la consommation de données sur notre réseau Internet haute vitesse afin d'en améliorer la fiabilité et la stabilité. Nous recueillons et utilisons les adresses IP et les numéros de port attribués à nos clients et ceux auxquels ils se sont connectés ou ont tenté de se connecter, afin que nous puissions continuer d'offrir la connectivité Internet.
+												li Nous pouvons utiliser un système de surveillance par caméra vidéo pour contrôler ou enregistrer les activités aux abords de nos magasins, installations et infrastructures, y compris nos infrastructures de services mobiles. Nous pouvons aussi utiliser des véhicules aériens sans pilote (drones) pour inspecter nos infrastructures de services mobiles ou de réseau éloignées (p. ex., tours cellulaires). Cette information sert au maintien de nos réseaux ou à des fins de sécurité ou d'enquête pour nous protéger contre le vol, les bris et le vandalisme. 
+												li Nous surveillons les activités sur nos réseaux pour détecter et éviter les fraudes et protéger nos clients. 
+												li Nous enregistrons les échanges avec nos représentants, comme les appels téléphoniques et les séances de clavardage, à des fins de formation et d'assurance de la qualité; nos systèmes peuvent en outre analyser en temps réel ces échanges pour identifier les habitudes et tendances et mieux vous servir.
+												li Nous recueillons de l'information sur la consultation de nos propres sites web (comme #[a(href="https://www.koodomobile.com/fr") www.koodomobile.com]) afin d'optimiser les propriétés web de TELUS et à des fins de sécurité.
+
+									li.accordion-item
+										button.ai-summary
+											div.ai-container
+												h4 Nous conformer aux dispositions législatives et réglementaires.
+												span.kooding-glyph.circular-arrow-down
+										div.ai-details
+											p Voici quelques exemples de ce que nous entendons par là :
+											ul
+												li Pour nous conformer à une ordonnance judiciaire, nous pouvons recueillir ou conserver des renseignements, notamment sur le lieu où se trouve votre appareil mobile quand vous l'utilisez à des fins précises. 
+												li Par exemple, lorsque vous composez le 911 et que nous communiquons vos coordonnées GPS et des données de triangulation au centre 911 local. 
+												li Nous devons recueillir, utiliser et communiquer certains renseignements en tant qu'entreprise de télécommunications assujettie à la réglementation. Par exemple, si un client compose le 911, nous communiquons au service d'urgence son nom, son numéro de téléphone et les renseignements relatifs à son emplacement. Un autre exemple serait pour répondre à une demande d'information du Conseil de la radiodiffusion et des télécommunications canadiennes (CRTC) au sujet d'une plainte formulée par un client et des suites données à celle-ci.
+												li Nous devons recueillir certains renseignements pour respecter nos obligations légales, notamment en matière de déclaration fiscale.
+
+							section
+								div.inner-container
+									h3 Lorsque nous partageons des renseignements personnels
+									p Nous accordons une grande importance aux renseignements que nous partageons et aux raisons pour lesquelles nous le faisons. Nous communiquons certains renseignements personnels au sujet de nos clients dans certaines circonstances :
+
+								ul.accordion-items
+									li.accordion-item
+										button.ai-summary
+											div.ai-container
+												h4 Pour faciliter et améliorer la prestation de produits et de services.
+												span.kooding-glyph.circular-arrow-down
+										div.ai-details
+											p Voici quelques exemples de ce que nous entendons par là. Nous pouvons partager des renseignements avec :
+											ul
+												li une personne qui demande à accéder à ces renseignements à titre de mandataire d'un client (comme un représentant légal de celui-ci ou un utilisateur autorisé de son compte), si Koodo estime que cette personne est autorisée à avoir accès aux renseignements en question;
+												li d'autres unités d'affaires de TELUS dans le but de nous aider à mieux servir nos clients et de leur fournir des services assurés par différentes divisions de notre entreprise;
+												li une autre entreprise de télécommunications pour la prestation efficace et rentable des services de télécommunications (en lui communiquant, par exemple, les renseignements nécessaires pour faciliter le transfert des services entre les entreprises de télécommunications); par exemple, ce type de partage peut avoir lieu lorsque vous utilisez les services en itinérance sur d'autres réseaux;
+												li une entreprise associée à l'offre de services de télécommunications ou de services d'annuaire téléphonique (inscription dans les Pages Jaunes ou les pages blanches, par exemple), lorsque votre numéro de téléphone résidentiel figure dans l'annuaire téléphonique.
+
+									li.accordion-item
+										button.ai-summary
+											div.ai-container
+												h4 Pour permettre à nos fournisseurs de services et partenaires de nous aider à mieux vous servir.
+												span.kooding-glyph.circular-arrow-down
+										div.ai-details
+											p Nous pouvons communiquer à nos fournisseurs, agents ou autres entreprises ayant des modalités contractuelles avec Koodo les renseignements dont ils ont besoin pour fournir des services ou exécuter des tâches en notre nom. Nous nous efforçons de limiter le plus possible la quantité de renseignements personnels que nous communiquons à nos fournisseurs de services et partenaires; nous partageons les renseignements qui sont raisonnablement nécessaires aux fins mentionnées et nous exigeons qu'ils ne servent qu'à celles-ci.
+											p Parmi les fournisseurs de services ou partenaires auxquels nous faisons référence, mentionnons les entreprises qui :
+											ul
+												li effectuent des recherches en notre nom, comme des sondages sur la satisfaction de la clientèle;
+												li font du traitement de données en notre nom, notamment l'impression des factures des clients;
+												li administrent avec nous des programmes spéciaux de TELUS, comme un programme de récompense.
+
+									li.accordion-item
+										button.ai-summary
+											div.ai-container
+												h4 À des fins de vérification de crédit.
+												span.kooding-glyph.circular-arrow-down
+										div.ai-details
+											p Nous pouvons partager les renseignements personnels d'un client avec une agence d'évaluation du crédit :
+											ul
+												li pour évaluer son crédit;
+												li pour connaître ses antécédents de paiements mensuels avec Koodo.
+											p Nous pouvons également partager vos renseignements personnels avec des agences de recouvrement si votre compte a été confié à une telle agence.
+
+									li.accordion-item
+										button.ai-summary
+											div.ai-container
+												h4 En cas d'urgence.
+												span.kooding-glyph.circular-arrow-down
+										div.ai-details
+											p Nous pouvons divulguer des renseignements à une autorité publique ou à un agent d'une autorité publique si, de l'avis raisonnable de TELUS, il existe un danger imminent pour la vie, la santé ou la sécurité d'une personne et que ce danger pourrait être éradiqué ou atténué par la divulgation de ces renseignements.
+
+									li.accordion-item
+										button.ai-summary
+											div.ai-container
+												h4 Pour nous conformer aux lois et règlements en vigueur.
+												span.kooding-glyph.circular-arrow-down
+										div.ai-details
+											p Nous divulguons les renseignements personnels d'un client à un organisme d'application de la loi ou à un autre organisme gouvernemental si nous sommes tenus de le faire pour nous conformer aux lois et règlements en vigueur; par exemple, si une ordonnance d'un tribunal contraint Koodo à fournir des documents à un organisme d'application de la loi. 
+											p Les renseignements personnels recueillis par TELUS peuvent être stockés et traités au Canada ou dans un autre pays. Dans l'un ou l'autre de ces cas, l'information est protégée avec les moyens appropriés, mais elle peut être accessible à des organismes gouvernementaux en vertu de certaines lois. Lorsque nous transférons des données hors du pays, nous réduisons au minimum la quantité de renseignements personnels transférés, par anonymisation ou d'autres moyens appropriés.
+											p Vous devez également savoir que le stockage, le traitement et le transfert de vos renseignements personnels et de vos données pourraient être régis par une loi ou une réglementation qui diffère de celle du Canada lorsque vous utilisez le service d'itinérance à l'étranger.
+
+							section.inner-container
+								h3 Quelques moyens que nous employons pour protéger votre vie privée
+								ul
+									li Nous avons  désigné un chef des données et du Bureau des relations de confiance qui supervise le Bureau des données et des relations de confiance. Le rôle du Bureau est de maintenir un solide programme de gestion de la protection de la vie privée, spécialement conçu pour protéger votre vie privée et pour établir des politiques et procédures afin de gagner et de garder votre confiance à l'égard de nos pratiques de traitement des données.
+									li Nous avons adopté les 7 principes fondamentaux de la protection intégrée de la vie privée et nous nous efforçons de les appliquer aux processus de développement de tous nos produits et services.
+									li Nous maintenons un solide programme de gouvernance de la sécurité de l'information afin de protéger vos renseignements personnels au moyen de mesures de sécurité appropriées. Nos mesures de contrôle de la sécurité sont administratives, physiques et techniques. Lorsque nous travaillons avec d'autres entreprises, nous avons recours, sur le plan contractuel et sur tout autre plan, à des mesures de protection de la confidentialité de vos renseignements personnels.
+									li Nous pouvons dépersonnaliser des renseignements pour diverses raisons, notamment pour les protéger, ou lorsque cette dépersonnalisation répond à nos besoins en matière de conservation des renseignements. Par exemple, nous pouvons dépersonnaliser certaines données d'utilisation du réseau ou données d'emplacement aux fins de notre planification à long terme s'il n'est pas nécessaire que ces renseignements personnels soient rattachés à des clients en particulier. Nous pouvons également dépersonnaliser des renseignements avant d'effectuer des analyses qui ne nécessitent pas de renseignements personnels.
+									li Nous nous efforçons d'assurer l'exactitude et le caractère actuel de vos renseignements personnels dans la mesure où c'est raisonnablement nécessaire pour répondre aux besoins énoncés.
+									li Nous répondons dans les meilleurs délais à vos demandes d'accès à vos renseignements personnels.
+									li Nous accordons beaucoup d'importance à la formation en sécurité et en respect de la vie privée et nous employons diverses méthodes pour aider les membres de l'équipe Koodo à respecter et à protéger votre vie privée.
+									li À moins que vous donniez votre consentement explicite, Koodo ne divulgue vos renseignements personnels aux sociétés de marketing de produits de tiers, à des fins de publicités ciblées ou autres.
+									li Nous avons une équipe chargée de répondre à vos demandes et préoccupations concernant la protection de votre vie privée. Pour en savoir davantage, veuillez consulter notre Foire aux questions (FAQ).
+									li Nous nous engageons à faire preuve de transparence quant à la manière dont nous traitons vos renseignements personnels, notamment au moyen de la présente politique, de notre Code sur la protection de la vie privée, de notre page #[a(href="https://telus.com/privee", target="_blank", rel="noopener noreferrer") telus.com/privee] et de notre rapport annuel sur la transparence.
+									li Nous avons recours aux témoins de façon limitée et seulement à des fins qui sont conformes au présent Engagement. Pour en savoir davantage, veuillez consulter notre avis concernant les témoins.
+									li Les lois sur la protection de la vie privée définissent généralement dans quelles circonstances les entreprises peuvent recueillir, utiliser et communiquer des renseignements personnels sans consentement, notamment dans une situation d'urgence ou dans le cadre d'une enquête portant sur la violation d'une loi. Outre dans de telles circonstances, TELUS s'engage à ne pas recueillir, utiliser ou communiquer de renseignements personnels à votre sujet à d'autres fins que celles énoncées dans le présent Engagement, dans notre Code sur la protection de la vie privée, dans votre entente de service client ou encore dans les Modalités de service de TELUS, sauf avec votre consentement.
+									li Nous  continuerons de passer en revue le présent Engagement pour s'assurer qu'il est pertinent et adapté aux lois et technologies en vigueur et qu'il continue de répondre à vos besoins en constante évolution.
+
+							section.inner-container
+								h3 Vos choix
+								p Nous présumons que vous consentez à la cueillette, à l'utilisation et à la communication de renseignements personnels à votre sujet aux fins déterminées, mais nous voulons que vous sachiez que vous avez le choix de refuser ou de retirer votre consentement comme suit :
+								ul
+									li Vous pouvez faire enlever votre nom d'une ou plusieurs de nos listes de marketing, comme nos listes de marketing téléphonique, postal ou électronique. Ces listes nous servent à vous informer au sujet de produits, de services et d'offres susceptibles de vous intéresser.
+									li Notre éditeur d'annuaires, le Groupe Pages Jaunes, met à la disposition de certaines organisations, moyennant rétribution, des listes de noms, d'adresses et de numéros de téléphone publiés. Vous pouvez choisir de ne pas figurer sur ces listes (dont les noms, adresses et numéros de téléphone non publiés sont automatiquement exclus).
+									li Vous n'êtes pas tenu de consentir à la transmission de vos renseignements personnels. De plus, vous pouvez retirer votre consentement en tout temps, sous réserve de restrictions légales ou contractuelles et moyennant un préavis raisonnable. Cependant, cela pourrait limiter notre capacité à vous servir et nous obliger à annuler certains des services que nous vous fournissons ou tous nos services.
+									li Pour plus de détails sur les options ci-dessus, veuillez communiquer avec nous au #[a(href="tel:18555256636") 1 855 525 6636].
+								p Nos abonnés des services mobiles peuvent refuser l'utilisation de leurs renseignements de localisation sous forme anonymisée lorsque les renseignements ou données en question seront divulgués à des tiers afin qu'ils nous aident au chapitre de la recherche, de la planification ou du développement de produits et de services, sauf lorsque la communication de ces renseignements est prescrite par la loi. Pour en savoir plus à ce sujet, consultez la page #[a(href="https://telus.com/privee", target="_blank", rel="noopener noreferrer") telus.com/privee] et cliquez sur Analyse de données.
+								p À moins que vous nous avisiez du contraire, nous présumerons que vous nous avez autorisés à continuer de recueillir, d'utiliser et de communiquer des renseignements personnels à votre sujet aux fins énoncées.
+
+							section.inner-container
+								h3 Des questions?
+								p Nous voulons que vous soyez à l'aise avec la manière dont nous protégeons votre vie privée. Si vous avez des questions qui ne sont pas abordées dans le présent Engagement ou dans notre Code sur la protection de la vie privée, veuillez consulter notre #[a(href="/sites/default/files/uploads/privacy/telus-privacy-faq-fr.pdf", target="_blank", rel="noopener noreferrer") Foire aux questions]. Vous pouvez également #[a(href="mailto:àconfidentialité@koodomobile.com") communiquer avec nous] pour plus de détails.
+								p En vigueur 1 mai 2017.
+
+							ul.accordion-items
+								li#nitty-gritty.nitty-gritty.accordion-item
+									button.ai-summary
+										div.ai-container
+											h4#nitty-gritty Les p'tits détails
+											span.kooding-glyph.circular-arrow-down
+									div.ai-details
+										ol
+											li#nitty-gritty-1 Dans le cadre du présent Engagement en matière de protection de la vie privée, les mots « Koodo » « nous et notre » et   désignent Koodo marque commerciale enregistrée de TELUS Communications et ses filiales existantes à quelque moment que ce soit, y compris ses filiales ou divisions qui font affaire sous les dénominations TELUS, Société TELUS Communications, TELUS Mobilité, TELUS Québec, Koodo, Public Mobile ou encore PC Mobile, à l'exclusion de TELUS Santé. Les mots « nous » et « TELUS » ne désignent pas les détaillants et les distributeurs indépendants des produits et services de TELUS.
+											li#nitty-gritty-2 Le Code de protection de la vie privée de TELUS et le présent Engagement ne limitent pas la collecte, l'utilisation ou la divulgation de renseignements accessibles au public par Koodo, à savoir, notamment : (a) le nom, l'adresse, le numéro de téléphone et l'adresse de courriel d'un client s'ils figurent dans un annuaire téléphonique ou peuvent être obtenus par l'entremise de l'assistance annuaire; et (b) tout autre renseignement au sujet d'un client accessible au public et soumis à la réglementation adoptée en vertu de la Loi sur la protection des renseignements personnels et les documents électroniques ou de toute autre loi applicable. Le Code sur la protection de la vie privée de TELUS et les pratiques à ce chapitre énoncées dans le présent Engagement en matière de protection de la vie privée sont assujettis aux dispositions de l'ensemble des lois et des règlements applicables.
+											li#nitty-gritty-3 Les définitions figurant dans le Code de TELUS sur la protection de la vie privée s'appliquent au présent Engagement.
+						<!-- /.km-privacy.lang-fr -->
+					<!-- /.content -->
+				<!-- /#site-content -->
+			<!-- /#site-container -->
+		<!-- /#site-wrapper.page-content -->
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.1.2/jquery.smooth-scroll.min.js")
+		// START of local webserver JS resources
+		script(src="http://localhost:4000/public/scripts/page-title-helper.js")
+		script(src="http://localhost:4000/public/scripts/window-dimensions-helper.js")
+		// END of local webserver JS resources
+		script(src="scripts/main.js")

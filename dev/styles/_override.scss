@@ -1,0 +1,42 @@
+// override production defaults
+// remove triangle indicator from below "Shop" menu item
+.page-node-690 #pri-nav-cont .menu-level-1 ul.menu li.li-support > div:after,
+.page-node-691 #pri-nav-cont .menu-level-1 ul.menu li.li-soutien > div:after,
+#pri-nav-cont .menu-level-1 ul.menu li.li-shop > div:after,
+#pri-nav-cont .menu-level-1 ul.menu li.li-magasiner > div:after,
+#pri-nav-cont .menu-level-1 ul.menu li.dropdown-expanded > div:after,
+#pri-nav-cont .menu-level-1 ul.menu  li.expanded > div:hover:after {
+	content: "";
+}
+
+// full width page title (prevents FR text from breaking to two lines)
+#site-header #title-section-container {
+	width: 100%;
+	display: block;
+}
+
+div#site-wrapper.page-content {
+	div#site-container { // remove unwanted padding
+		padding: 0;
+		padding-left: 0;
+	}
+
+	div#site-content { margin: 0; } // remove unwanted margin
+
+	// modify styling of <ul> and <ol> list items
+	.content .km-privacy {
+		ul li {
+			background: none; // override image of custom bullet arrow
+			list-style: disc;
+
+			&.accordion-item { list-style: none; }
+		}
+
+		ol li { list-style: decimal; }
+	}
+}
+
+div.link-wrapper, // small triangle bullet
+div#content-bottom-info { // empty HTML element
+	display: none;
+}

@@ -1,0 +1,8 @@
+.DS_Store
+*.lnk
+*.map
+assets
+node_modules
+public/scripts
+public/styles
+public/*.html

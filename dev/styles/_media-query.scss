@@ -1,0 +1,14 @@
+// standard Koodo breakpoints
+	// small  (0 - 767)
+	// medium (768 - 1099)
+	// large  (1100+)
+
+// override production default
+@media screen and (max-width: 767px) {
+	div#site-wrapper div#site-container { padding: 0; }
+}
+
+// override production default
+@media screen and (max-width: 1099px) and (min-width: 768px) {
+	div#site-wrapper div#site-container { padding: 0; }
+}
